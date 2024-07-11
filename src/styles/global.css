@@ -1,0 +1,33 @@
+/* estilização global + tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* colors */
+    --primary: #004882;
+    --primary_dark: #00335C;
+    --primary_light: #1968A8;
+    --secondary: #35AB56;
+    --secondary_dark: #158534;
+    --secondary_light: #60D180;
+    --light: #fff;
+    --dark: #2C2C34;
+    --gray: #9ca3af;
+    --gray_dark: #6b7280;
+    --gray_light: #d1d5db;
+    --gray_extra_light: #00000008;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+}
